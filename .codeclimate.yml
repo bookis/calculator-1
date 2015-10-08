@@ -1,5 +1,9 @@
-# Save as .codeclimate.yml (note leading .) in project root directory
-languages:
-  Ruby: true
-include_paths:
-- "./*.rb"
+engines:
+  rubocop:
+    enabled: true
+ratings:
+   paths:
+   - "**.rb"
+exclude_paths:
+- spec/**/*
+- vendor/**/*
