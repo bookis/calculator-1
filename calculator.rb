@@ -15,4 +15,5 @@ until command == "exit"
   end
 end
 
+puts "change"
 puts "I'm tired, goodbye."
